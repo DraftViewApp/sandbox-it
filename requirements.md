@@ -130,13 +130,15 @@ The keywords **shall**, **should**, and **may** are used as defined in RFC 2119 
 
 ### 4.3 Environmental and reliability
 
-The gateway shall tolerate the enviromental conditions below.
+The gateway shall tolerate the environmental conditions below. Another line that is here. This is more longer than originally thought. We should run a sanity check and spell check in the final build.
 
 - **NFR-REL-001.** The gateway shall operate continuously in ambient temperatures from -30 °C to +60 °C.
 - **NFR-REL-002.** The gateway shall have a demonstrated MTBF of at least 100,000 hours.
 - **NFR-REL-003.** The gateway shall lose no telemetry data during a WAN outage of up to 90 days.
 
-## 5. Verification methods
+## 5. Verification method
+
+The following tables lists the various verification methods we are using to verify that the requirements are met. Requirements can have more than one verification methods. New line.
 
 | Requirement group | Verification method |
 | --- | --- |
@@ -148,6 +150,7 @@ The gateway shall tolerate the enviromental conditions below.
 | NFR-PERF-001 … 003 | Test |
 | NFR-SEC-001 … 004 | Inspection and test |
 | NFR-REL-001 … 003 | Analysis |
+| NFR-REL-001 … 003_duplicate | Duplicate |
 
 ## 6. Traceability
 
